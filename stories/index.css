@@ -1,0 +1,23 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root,
+.scroll-container {
+  height: 100%;
+}
+
+.content {
+  padding: 5em;
+  max-width: 30em;
+}
+
+.box {
+  height: 200px;
+  background-color: red;
+  z-index: -1;
+}
